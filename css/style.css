@@ -52,12 +52,6 @@
 }
 .content-wrapper svg {
 }
-.el {
-  width: 366px;
-  height: 59px;
-  border-radius: 366px;
-  background: #efefef;
-}
 
 .additional-info-wrapper {
   display: flex;
@@ -92,4 +86,55 @@
 }
 .lesson {
   flex: 1;
+}
+@media screen and (max-width: 600px) {
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .content {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    justify-content: center;
+  }
+  .image img:first-child {
+    width: 146.315px;
+    height: 146.781px;
+  }
+  .ellipse {
+    width: 180.546px;
+    height: 27.492px;
+    left: 26px;
+    bottom: -15px;
+  }
+  .additional-info-wrapper {
+    flex-direction: column;
+  }
+  .add-image {
+    display: none;
+  }
+  .additional-info-wrapper .lessons {
+    width: 100%;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .lesson {
+    flex: unset;
+    max-width: 40%;
+  }
+  #title {
+    margin-bottom: 20px;
+  }
+  .hour {
+    font-size: 12px;
+  }
+  .lesson-content {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 4px;
+  }
 }
