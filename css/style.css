@@ -9,12 +9,13 @@
 .container {
 }
 .wrapper {
-  margin: 56px 72px;
+  margin: 3.5rem 4.5rem;
 }
 #title {
   /* width: 211.396px;
   height: 53.863px; */
-  font-size: 30px;
+  font-size: 1.875rem;
+  margin-bottom: 10px;
 }
 .content-wrapper {
   display: flex;
@@ -38,16 +39,16 @@
   position: relative;
 }
 .image img:first-child {
-  width: 204.858px;
-  height: 205.438px;
+  width: 12.8036rem;
+  height: 12.8399rem;
   object-fit: cover;
 }
 .ellipse {
-  width: 266px;
-  height: 49px;
+  width: 16.625rem;
+  height: 3.0625rem;
   position: absolute;
-  bottom: -21px;
-  right: -35px;
+  bottom: -1.3125rem;
+  right: -2.1875rem;
   z-index: -1;
 }
 .content-wrapper svg {
@@ -56,7 +57,7 @@
 .additional-info-wrapper {
   display: flex;
   width: 80%;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   align-items: center;
 }
 .additional-info-wrapper .lessons {
@@ -69,20 +70,20 @@
 }
 .add-image svg {
   position: absolute;
-  bottom: -15px;
-  left: 10px;
+  bottom: -0.9375rem;
+  left: 0.625rem;
   z-index: -1;
 }
 .add-image img {
-  width: 190px;
-  height: 191px;
+  width: 11.875rem;
+  height: 11.9375rem;
 }
 .hour {
-  font-size: 17px;
-  padding: 5px 0;
+  font-size: 1.0625rem;
+  padding: 0.3125rem 0;
 }
 .lesson-content {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .lesson {
   flex: 1;
@@ -91,7 +92,7 @@
   .content-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .content {
     width: 100%;
@@ -101,12 +102,12 @@
     justify-content: center;
   }
   .image img:first-child {
-    width: 146.315px;
-    height: 146.781px;
+    width: 9.1447rem;
+    height: 9.1738rem;
   }
   .ellipse {
-    width: 180.546px;
-    height: 27.492px;
+    width: 11.2841rem;
+    height: 1.7183rem;
     left: 50%;
     bottom: -5%;
     transform: translate(-50%, 20%);
@@ -123,24 +124,24 @@
   }
   .additional-info-wrapper .lessons {
     width: 100%;
-    gap: 35px;
+    gap: 2.1875rem;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 1.25rem 0;
   }
   .lesson {
     flex: unset;
     max-width: 40%;
   }
   #title {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   .hour {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .lesson-content {
-    font-size: 10px;
-    line-height: 15px;
-    margin-top: 4px;
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    margin-top: 0.25rem;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 834px) {
@@ -149,13 +150,13 @@
   }
   .additional-info-wrapper .lessons {
     width: 100%;
-    gap: 20px;
+    gap: 1.25rem;
   }
   .lesson {
     flex: unset;
     max-width: 25%;
   }
   .lesson-content {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
