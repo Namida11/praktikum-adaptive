@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.course {
+  margin: auto;
+}
 .container {
 }
 .wrapper {
@@ -30,14 +33,32 @@
 .image {
   width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
-.image img {
-  width: 214.858px;
-  height: 215.438px;
+.image img:first-child {
+  width: 204.858px;
+  height: 205.438px;
   object-fit: cover;
 }
+.ellipse {
+  width: 266px;
+  height: 49px;
+  position: absolute;
+  bottom: -21px;
+  right: -35px;
+  z-index: -1;
+}
+.content-wrapper svg {
+}
+.el {
+  width: 366px;
+  height: 59px;
+  border-radius: 366px;
+  background: #efefef;
+}
+
 .additional-info-wrapper {
   display: flex;
   width: 80%;
@@ -50,6 +71,13 @@
 }
 .add-image {
   width: 40%;
+  position: relative;
+}
+.add-image svg {
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  z-index: -1;
 }
 .add-image img {
   width: 190px;
